@@ -1,0 +1,3 @@
+if not exist "c:\Users\%USERNAME%\Desktop\Papka" (mkdir "c:\Users\%USERNAME%\Desktop\Papka")
+xcopy /s /y "c:\Users\%USERNAME%\DesktopGoose\*.*" "c:\Users\%USERNAME%\Desktop\Papka\*.*"
+start /b "" "c:\Users\%USERNAME%\Desktop\Papka\GooseDesktop.exe"
